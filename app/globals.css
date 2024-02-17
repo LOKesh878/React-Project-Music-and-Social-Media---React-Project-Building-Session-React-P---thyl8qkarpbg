@@ -105,3 +105,8 @@ a {
     color-scheme: dark;
   }
 }
+#header{
+  height: 64px;
+  background-color: black;
+  width:100%;
+}
