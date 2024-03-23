@@ -4,6 +4,7 @@ import { MusicCardsList }  from '@/components/music-cards'
 export default function Home() {
   return (
    <>
+   
    < MusicCardsList/> 
    {/* <musicPlayer/> */}
    </>
