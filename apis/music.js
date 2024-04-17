@@ -3,6 +3,6 @@ export async function fetchMusicList(page,limit){
     const res = await axios.get(
         `https://academics.newtonschool.co/api/v1/music/song?page=${page}&limit=${limit}`
         );
-    console.log(res)
+    console.log(res.data.data)
     return res.data.data
 }

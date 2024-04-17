@@ -1,4 +1,4 @@
-import axios from "./axios-instance";
+import axios from "./axios.instance";
 
 export async function fetchPosts(limit, page) {
   const res = await axios.get(

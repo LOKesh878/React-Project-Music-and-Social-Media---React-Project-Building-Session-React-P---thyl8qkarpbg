@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export function MusicCard({ music, onClick }) {
+  // console.log(music)
   return (
     <div onClick={onClick} id="music-card" style={styles.container}>
       <img id="music-thumbnail" style={styles.image} src={music.thumbnail} />
